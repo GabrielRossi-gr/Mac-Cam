@@ -9,25 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-//            Text("Hello, world!")
+        HStack{
             
+            VStack{
+                CameraView()
+                    .frame(width: 600, height: 300)
+                CameraView()
+                    .frame(width: 600, height: 300)
+                CameraView()
+                    .frame(width: 600, height: 300)
+            }
             
-            CameraView()
-                .frame(width: 400, height: 400)
-                .cornerRadius(30)
-            
-            CameraView()
-                .frame(width: 400, height: 400)
-                .cornerRadius(30)
-            
-            CameraView()
-                .frame(width: 400, height: 400)
-                .cornerRadius(30)
-            
+            VStack{
+                CameraView()
+                    .frame(width: 600, height: 300)
+                CameraView()
+                    .frame(width: 600, height: 300)
+                CameraView()
+                    .frame(width: 600, height: 300)
+            }
         }
     }
 }
