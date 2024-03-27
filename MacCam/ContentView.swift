@@ -13,20 +13,20 @@ struct ContentView: View {
             
             VStack{
                 CameraView()
-                    .frame(width: 600, height: 300)
+                    .frame(width: 500, height: 200)
                 CameraView()
-                    .frame(width: 600, height: 300)
+                    .frame(width: 500, height: 200)
                 CameraView()
-                    .frame(width: 600, height: 300)
+                    .frame(width: 500, height: 200)
             }
             
             VStack{
                 CameraView()
-                    .frame(width: 600, height: 300)
+                    .frame(width: 500, height: 200)
                 CameraView()
-                    .frame(width: 600, height: 300)
+                    .frame(width: 500, height: 200)
                 CameraView()
-                    .frame(width: 600, height: 300)
+                    .frame(width: 500, height: 200)
             }
         }
     }

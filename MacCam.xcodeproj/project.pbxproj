@@ -12,6 +12,7 @@
 		488FB3752BB2D7ED00CC8600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488FB3742BB2D7ED00CC8600 /* Assets.xcassets */; };
 		488FB3782BB2D7ED00CC8600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488FB3772BB2D7ED00CC8600 /* Preview Assets.xcassets */; };
 		488FB3802BB2D9AD00CC8600 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB37F2BB2D9AD00CC8600 /* CameraView.swift */; };
+		489201DD2BB44A2D0053F65B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489201DC2BB44A2D0053F65B /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		488FB3792BB2D7ED00CC8600 /* MacCam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacCam.entitlements; sourceTree = "<group>"; };
 		488FB37F2BB2D9AD00CC8600 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		488FB3852BB2DC8400CC8600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		489201DC2BB44A2D0053F65B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				488FB3702BB2D7EB00CC8600 /* MacCamApp.swift */,
 				488FB3722BB2D7EB00CC8600 /* ContentView.swift */,
 				488FB37F2BB2D9AD00CC8600 /* CameraView.swift */,
+				489201DC2BB44A2D0053F65B /* CameraViewController.swift */,
 				488FB3742BB2D7ED00CC8600 /* Assets.xcassets */,
 				488FB3792BB2D7ED00CC8600 /* MacCam.entitlements */,
 				488FB3762BB2D7ED00CC8600 /* Preview Content */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				488FB3802BB2D9AD00CC8600 /* CameraView.swift in Sources */,
+				489201DD2BB44A2D0053F65B /* CameraViewController.swift in Sources */,
 				488FB3732BB2D7EB00CC8600 /* ContentView.swift in Sources */,
 				488FB3712BB2D7EB00CC8600 /* MacCamApp.swift in Sources */,
 			);
