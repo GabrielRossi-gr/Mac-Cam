@@ -10,28 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack{
-            
-            VStack{
-                CameraView()
-                    .frame(width: 500, height: 200)
-                CameraView()
-                    .frame(width: 500, height: 200)
-                CameraView()
-                    .frame(width: 500, height: 200)
-            }
-            
-            VStack{
-                CameraView()
-                    .frame(width: 500, height: 200)
-                CameraView()
-                    .frame(width: 500, height: 200)
-                CameraView()
-                    .frame(width: 500, height: 200)
-            }
+            HostedViewController()
+//            CameraView()
         }
     }
 }
 
 #Preview {
     ContentView()
+}
+
+
+// Estrutura para encapsular NSViewController em SwiftUI
+struct HostedViewController: NSViewControllerRepresentable {
+
+    // Método para criar o NSViewController
+    func makeNSViewController(context: Context) -> NSViewController {
+        return ViewController()
+    }
+
+    // Método para atualizar o NSViewController (não é usado neste exemplo)
+    func updateNSViewController(_ nsViewController: NSViewController, context: Context) {
+    }
 }
